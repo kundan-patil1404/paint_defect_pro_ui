@@ -1,0 +1,24 @@
+name: paint_defect_pro_ui
+description: Paint Defect Pro mobile UI recreation
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.0
+  google_fonts: ^8.2.1
+  iconify_flutter: ^0.0.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/splashscreen/
+    - assets/vector/splashscreen/
+    - assets/vector/homescreen/
+    - assets/images/homescreen/
+    - assets/icons/
