@@ -206,7 +206,12 @@ class _HomeScreenState extends State<HomeScreen> {
         'assets/icons/carbon_chat.svg',
         'Product finder',
         'recommended fix',
-            () {},
+            ()  {
+              Navigator.pushNamed(
+                context,
+                '/product-finder',
+              );
+            },
       ),
       _MenuItemData(
         'assets/icons/bi_people.svg',

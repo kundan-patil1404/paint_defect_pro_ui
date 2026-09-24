@@ -21,4 +21,5 @@ flutter:
     - assets/vector/splashscreen/
     - assets/vector/homescreen/
     - assets/images/homescreen/
+    - assets/images/products/
     - assets/icons/
